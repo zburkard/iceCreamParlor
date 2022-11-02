@@ -1,0 +1,10 @@
+.bg-image {
+  background-image: url(Ice-cream-parlor-Lew-Robertson-575091a15f9b5892e85ff2eb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prod-image {
+  max-height: 20vh;
+  min-height: 20vh;
+}
