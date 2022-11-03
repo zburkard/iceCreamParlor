@@ -79,9 +79,8 @@ function drawCart() {
     if (v.quantity > 0) {
       template += `
       <section class="row card">
-          <div class="col-4">${v.name}</div>
-          <div class="col-4">Price: ${v.price}</div>
-          <div class="col-4">Quantity: ${v.quantity}</div>
+          <div class="col-12">${v.name} Price: ${v.price} Quantity: ${v.quantity}</div>
+
           </section>
       `
     }
