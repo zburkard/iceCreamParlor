@@ -68,9 +68,8 @@ function drawCart() {
     if (scoop.quantity > 0) {
       template += `
       <section class="row card">
-          <div class="col-4">${scoop.name}</div>
-          <div class="col-4">Price: ${scoop.price}</div>
-          <div class="col-4">Quantity: ${scoop.quantity}</div>
+          <div class="col-12">${scoop.name} Price: ${scoop.price} 
+          <p>Quantity: ${scoop.quantity}</p></div>
           </section>
       `
     }
@@ -79,8 +78,8 @@ function drawCart() {
     if (v.quantity > 0) {
       template += `
       <section class="row card">
-          <div class="col-12">${v.name} Price: ${v.price} Quantity: ${v.quantity}</div>
-
+          <div class="col-12">${v.name} Price: ${v.price} 
+          <p>Quantity: ${v.quantity}</p></div>
           </section>
       `
     }
@@ -89,9 +88,8 @@ function drawCart() {
     if (t.quantity > 0) {
       template += `
       <section class="row card">
-          <div class="col-4">${t.name}</div>
-          <div class="col-4">Price: ${t.price}</div>
-          <div class="col-4">Quantity: ${t.quantity}</div>
+          <div class="col-12">${t.name} Price: ${t.price} 
+          <p>Quantity: ${t.quantity}</p></div>
           </section>
       `
     }
